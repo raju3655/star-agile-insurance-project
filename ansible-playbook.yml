@@ -16,7 +16,7 @@
     become : yes
     become_user : root
 
-     - name: stop container
+  - name: stop container
     command: sudo docker stop insure-me
     
   - name: remove container
